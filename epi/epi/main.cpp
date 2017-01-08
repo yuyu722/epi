@@ -6,7 +6,7 @@
 
 int main()
 {
-	cout << ConvertBase("615", 7, 13) << endl;
+	cout << SSDecodeColID("ZZ") << endl;
 
 	system("pause");
 	return 0;

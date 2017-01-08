@@ -69,3 +69,16 @@ string ConvertBase(const string& s, int b1, int b2)
 	reverse(result.begin(), result.end());
 	return result;
 }
+
+//////////////////////////////////////////////////////////////////////////////////////
+//					Compute the spreadsheet column encoding							//
+//////////////////////////////////////////////////////////////////////////////////////
+int SSDecodeColID(const string& col)
+{
+	int ret = 0;
+	for (char c : col)
+	{
+		ret = ret * 26 + c - 'A' + 1;
+	}
+	return ret;
+}
