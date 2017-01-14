@@ -6,7 +6,8 @@
 
 int main()
 {
-	cout << SSDecodeColID("ZZ") << endl;
+	cout << Encoding("aaaabcccaa") << endl;
+	cout << Decoding("3e4f2e") << endl;
 
 	system("pause");
 	return 0;
